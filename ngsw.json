@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1691887428440,
+  "index": "/atividade1-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/atividade1-pwa/favicon.ico",
+        "/atividade1-pwa/index.html",
+        "/atividade1-pwa/main.a7f447a402b600c7.js",
+        "/atividade1-pwa/manifest.webmanifest",
+        "/atividade1-pwa/polyfills.4027021a42ffec7c.js",
+        "/atividade1-pwa/runtime.540f37a71f235bd9.js",
+        "/atividade1-pwa/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/atividade1-pwa/assets/icons/icon-128x128.png",
+        "/atividade1-pwa/assets/icons/icon-144x144.png",
+        "/atividade1-pwa/assets/icons/icon-152x152.png",
+        "/atividade1-pwa/assets/icons/icon-192x192.png",
+        "/atividade1-pwa/assets/icons/icon-384x384.png",
+        "/atividade1-pwa/assets/icons/icon-512x512.png",
+        "/atividade1-pwa/assets/icons/icon-72x72.png",
+        "/atividade1-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/atividade1-pwa/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/atividade1-pwa/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/atividade1-pwa/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/atividade1-pwa/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/atividade1-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/atividade1-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/atividade1-pwa/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/atividade1-pwa/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/atividade1-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/atividade1-pwa/index.html": "b88bee4331f91bbda393e1b09b3c13b97df966cc",
+    "/atividade1-pwa/main.a7f447a402b600c7.js": "6ac0445a7c9711ce9a0b7f3f83b693c91859e929",
+    "/atividade1-pwa/manifest.webmanifest": "0b79ae87b072ad307579de5fecb78f905fab3f9e",
+    "/atividade1-pwa/polyfills.4027021a42ffec7c.js": "ac747c8c9f22cf010b4688789847132eda9713e3",
+    "/atividade1-pwa/runtime.540f37a71f235bd9.js": "d45e18735d8c3f7ed029a928613ed612e6f4f11a",
+    "/atividade1-pwa/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
